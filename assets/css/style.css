@@ -664,6 +664,13 @@ footer .grid-list{
     display: none;
   }
 
+  .about-content .topbar-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration : underline;
+  }
+
 }
 
 .nav-open-btn {
