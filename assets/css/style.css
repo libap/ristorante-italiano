@@ -644,6 +644,28 @@ footer .grid-list{
   gap: 8px;
 }
 
+#menu_mobile{
+  display: none;
+}
+
+@media screen and (max-width: 700px) {
+  .header #menu_mobile {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  #reserverMenu{
+    border-radius: 15px;
+    gap: 1px;
+    padding: 15px;
+  }
+
+  #menu_desktop{
+    display: none;
+  }
+
+}
+
 .nav-open-btn {
   padding: 12px;
   padding-inline-end: 0;
